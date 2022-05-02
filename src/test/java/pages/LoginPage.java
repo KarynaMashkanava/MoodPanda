@@ -9,17 +9,8 @@ import static com.codeborne.selenide.Condition.enabled;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-/**
-        * LoginPage class it's wrapper for standard input element
-        *
-        * @author Alex K
-        *
-        */
-
 public class LoginPage {
-    /**
-     * Email
-     */
+
     private SelenideElement emailInput = $(By.xpath("//input[@type='text']"));
     private SelenideElement passwordInput = $(By.xpath("//input[@type='password']"));
     private SelenideElement loginButton = $(By.xpath("//button"));
